@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         String text = editText.getText().toString();
         Log.d(TAG, "Dial number " + text);
         CallUtil callUtil = new CallUtil(this);
-//        callUtil.dialNumber("121");
+        callUtil.dialNumber("121");
 //        callUtil.callNumber(text);
-        callUtil.disableMobileData();
+//        callUtil.disableMobileData();
     }
 }
